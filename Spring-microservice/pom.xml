@@ -18,6 +18,10 @@
 
 	<name>Spring-microservice</name>
 	<packaging>pom</packaging>
+	
+	<modules>
+		<module>microservice-gateway</module>
+	</modules>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -29,7 +33,6 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<version>1.18.30</version>
 		</dependency>
 	</dependencies>
 
